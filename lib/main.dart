@@ -1,3 +1,4 @@
+import 'package:final_exam/routers/routers.dart';
 import 'package:final_exam/screens/home_page.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,9 @@ class MyApp extends StatelessWidget {
       
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(),
+       initialRoute: '/',
+       onGenerateRoute: (settings) => GenerateRoute.routerGenerator(settings),
+    
     );
   }
 }
