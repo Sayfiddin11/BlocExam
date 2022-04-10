@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
 import '../bloc/cubit/main_page/main_page_cubit.dart';
 import '../screens/create/new_contract.dart';
 import '../screens/create/new_invoice.dart';
 import '../themes/colors.dart';
 import '../themes/theme.dart';
-import 'package:provider/src/provider.dart';
 import 'package:easy_localization/easy_localization.dart';
 
 class ChooseType extends StatelessWidget {
